@@ -1,0 +1,18 @@
+/* A style sheet file for the whole page except #main and #navbar */
+/* 主体css文件(不包括#main) */
+body {
+	background-color: #0d1117;
+}
+#body {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main {
+	width: 1000px;
+	margin-top: 30px;
+}
+.index {
+	width: 1000px;
+}

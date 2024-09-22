@@ -1,0 +1,48 @@
+/* A style sheet file for #navbar only */
+/* #navbar的专用css文件 */
+#navbar {
+	width: 1000px;
+	height: 50px;
+	margin-top: 30px;
+}
+#avatar {
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+#avatar img {
+	width: 50px;
+	height: 50px;
+}
+#nav-btn {
+	width: 400px;
+	height: 50px;
+	margin-left: 225px;
+	color: #ffffff;
+	float: left;
+}
+.nav-btn {
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 16px;
+	float: left;
+}
+#link {
+	width: 100px;
+	height: 50px;
+	margin-left: 225px;
+	float: left;
+}
+.link-logo {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	float: left;
+}
+.link-logo img {
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+}

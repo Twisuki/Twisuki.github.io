@@ -1,0 +1,25 @@
+/* A style sheet file for animation, custom style and for js to control */
+/* 自定义的样式, 用于供js控制 */
+
+/* Navbar */
+.nav-not-display {
+	color: #ffffff;
+}
+.nav-not-display:hover {
+	text-decoration: #ffffff underline 2px;
+}
+.nav-on-display {
+	color: #00aaff;
+}
+.nav-on-display:hover {
+	text-decoration: #00aaff underline 2px;
+}
+
+
+/* Main */
+.index-not-display {
+	display: none;
+}
+.index-on-display {
+	display: inline;
+}
