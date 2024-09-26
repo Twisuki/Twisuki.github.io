@@ -1,0 +1,203 @@
+/* A style sheet file for #main-repo only */
+/* #main-repo的专用css文件 */
+
+/* repo-cover */
+#repo-cover {
+	width: 1000px;
+	height: 175px;
+	float: left;
+}
+#repo-cover img {
+	width: 1000px;
+	height: 175px;
+	filter: brightness(0.7);
+}
+
+/* repo-title */
+.repo-title {
+	width: 250px;
+	height: 50px;
+	color: #ffffff;
+	text-align: left;
+	line-height: 50px;
+	font-size: 40px;
+	margin-top: 25px;
+	float: left;
+	list-style-type: circle;
+}
+.repo-title-en {
+	height: 50px;
+	color: #ffffff;
+	text-align: left;
+	line-height: 75px;
+	font-size: 20px;
+	margin-top: 25px;
+	float: left;
+	list-style-type: none;
+}
+.repo-title-hr {
+	width: 1000px;
+	float: left;
+}
+
+/* repo-mine */
+.repo-mine {
+	width: 1000px;
+	height: 150px;
+	float: left;
+}
+.repo-mine:hover {
+	background-color: #ffffff10;
+	border-radius: 30px;
+}
+.repo-mine a {
+	width: 450px;
+	height: 50px;
+	margin-left: 50px;
+	text-align: left;
+	line-height:50px;
+	font-size: 30px;
+	color: #00aaff;
+	text-decoration: none;
+	float: left;
+}
+.repo-mine a:hover {
+	text-decoration: #00aaff 3px underline;
+}
+.repo-mine-hr {
+	width: 940px;
+	margin-left: 30px;
+	float: left;
+}
+.repo-mine div {
+	width: 500px;
+	height: 50px;
+	text-align: left;
+	line-height:50px;
+	font-size: 25px;
+	color: #ffffff;
+	float: left;
+}
+.repo-mine ul {
+	width: 1000px;
+	height: 50px;
+	margin-left: -15px;
+	margin-top: 25px;
+	float: left;
+}
+.repo-mine li {
+	height: 50px;
+	margin-left: 50px;
+	text-align: left;
+	line-height:50px;
+	font-size: 25px;
+	color: #ffffff;
+	float: left;
+}
+
+/* repo-fork */
+.repo-fork {
+	width: 1000px;
+	height: 100px;
+	float: left;
+}
+.repo-fork:hover {
+	background-color: #ffffff10;
+	border-radius: 30px;
+}
+.repo-fork-title:link, .repo-fork-title:visited {
+	width: 450px;
+	height: 50px;
+	margin-left: 50px;
+	text-align: left;
+	line-height:50px;
+	font-size: 30px;
+	float: left;
+}
+.repo-fork-hr {
+	width: 940px;
+	margin-left: 30px;
+	float: left;
+}
+.repo-fork div {
+	width: 500px;
+	height: 50px;
+	text-align: left;
+	line-height:50px;
+	font-size: 25px;
+	color: #ffffff;
+	float: left;
+}
+.repo-fork li {
+	height: 50px;
+	margin-left: 55px;
+	text-align: left;
+	line-height: 50px;
+	list-style-type: square;
+	font-size: 30px;
+	color: #ffffff;
+	float: left;
+}
+.repo-fork a:link, .repo-fork a:visited {
+	color: #00aaff;
+	text-decoration: none;
+}
+.repo-fork a:hover {
+	text-decoration: #00aaff 3px underline;
+}
+
+/* repo-pr */
+.repo-pr {
+	width: 1000px;
+	height: 100px;
+	float: left;
+}
+.repo-pr:hover {
+	background-color: #ffffff10;
+	border-radius: 30px;
+}
+.repo-pr-title:link, .repo-pr-title:visited {
+	width: 450px;
+	height: 50px;
+	margin-left: 50px;
+	text-align: left;
+	line-height:50px;
+	font-size: 30px;
+	color: #00aaff;
+	text-decoration: none;
+	float: left;
+}
+.repo-pr-title:hover {
+	text-decoration: #00aaff 3px underline;
+}
+.repo-pr-hr {
+	width: 940px;
+	margin-left: 30px;
+	float: left;
+}
+.repo-pr div {
+	width: 500px;
+	height: 50px;
+	text-align: left;
+	line-height:50px;
+	font-size: 25px;
+	color: #ffffff;
+	float: left;
+}
+.repo-pr li {
+	height: 50px;
+	margin-left: 55px;
+	text-align: left;
+	line-height: 50px;
+	list-style-type: square;
+	font-size: 30px;
+	color: #ffffff;
+	float: left;
+}
+.repo-pr a:link, .repo-pr a:visited {
+	color: #00aaff;
+	text-decoration: none;
+}
+.repo-pr a:hover {
+	text-decoration: #00aaff 3px underline;
+}
