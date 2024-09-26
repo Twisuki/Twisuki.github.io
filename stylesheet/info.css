@@ -1,6 +1,7 @@
 /* A style sheet file for #main-info only */
 /* #main-info的专用css文件 */
 
+/* info-cover */
 #info-cover {
 	width: 1000px;
 	height: 175px;
@@ -21,6 +22,7 @@
 	width: 500px;
 	height: 75px;
 	margin-top: 50px;
+	margin-left: -5px;
 	line-height: 75px;
 	font-size: 50px;
 	float: left;
@@ -180,6 +182,9 @@
 #info-github-lang {
 	width: 380px;
 	height: 50px;
-	background-color: #fff;
 	float: left;
+	color: #ffffff;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
 }
