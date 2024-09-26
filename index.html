@@ -38,7 +38,7 @@
 				<div id="nav-btn-repo" class="nav-btn" title="这是咱的仓库&#10;There are my repositories.">
 					<a onclick="showPage(1)">
 						个人仓库<br />
-						Repositories
+						&nbsp;&nbsp;Repositories
 					</a>
 				</div>
 				<div id="nav-btn-src" class="nav-btn" title="这些资源希望你也用的上&#10;Some useful source you maybe need">
@@ -56,12 +56,12 @@
 			</div>
 			
 			<div id="link">
-				<div id="link-github" class="link-logo">
+				<div id="link-github" class="link-logo" title="https://github.com/Twisuki">
 					<a href="https://github.com/Twisuki">
 						<img src="./src/github.png"/>
 					</a>
 				</div>
-				<div id="link-bilibili" class="link-logo">
+				<div id="link-bilibili" class="link-logo" title="https://space.bilibili.com/317707977">
 					<a href="https://space.bilibili.com/317707977">
 						<img src="./src/bilibili.png"/>
 					</a>
@@ -75,15 +75,15 @@
 			<!-- index-0 基本信息 -->
 			<div id="main-info" class="index">
 				<div id="info-cover">
-					<img src="./src/cover.jpg" />
+					<img src="./src/cover1.png" />
 				</div>
 				
 				<div id="info-title">
 					<div id="info-title-1">
-						你好, 这里是Twisuki !
+						<img src="./src/titleType.svg" />
 					</div>
 					<div id="info-title-1-en">
-						Hello, this is Twisuki !
+						<img src="./src/titleType-en.svg" />
 					</div>
 					<div id="info-title-avatar">
 						<img src="./src/avatar.png" />
@@ -181,42 +181,224 @@
 						From now on, I plan to focus on managing my Github account, where I can learn a lot of new things.
 					</li>
 					
-					<picture id="info-github-snake">
-						<source srcset="https://raw.githubusercontent.com/Twisuki/Twisuki/output/github-contribution-grid-snake-dark.svg" />
-						<img src="./src/snake.svg" />
-					</picture>
-					<!-- 由Platane开发的Github贪吃蛇
-					This is Github Snake developed by Platane.
-					https://github.com/Platane/snk -->
-					
+					<div id="info-github-snake">
+						<img id="info-github-snake-img" src="https://raw.githubusercontent.com/Twisuki/Twisuki/output/github-contribution-grid-snake-dark.svg" />
+					</div>
+
 					<div id="info-github-2">
 						访问总数: <br />
 						Total Visited: 
 					</div>
-					<picture id="info-github-count">
-						<source srcset="https://profile-counter.glitch.me/twisuki/count.svg" />
-						<img title="本地输出, 时间:2024.09.22" src="./src/count.svg" />
-					</picture>
+					<div id="info-github-count">
+						<img id="info-github-count-img" src="https://profile-counter.glitch.me/twisuki/count.svg" />
+					</div>
 					
-					<!-- https://github-readme-stats.vercel.app/api/top-langs/?username=twisuki -->
 					<div id="info-github-3">
 						常用语言: <br />
 						Top Languages: 
 					</div>
-					<div id="info-github-lang">
-						
+					<div id="info-github-lang" title="动态获取一直出问题, 就直接写了qwq &#10The dynamic acquisition keeps having problems, so I just wrote it directly">
+						HTML CSS JavaScript ...
 					</div>
 				</div>
 			</div>
 			
 			<!-- index-1 个人仓库 -->
 			<div id="main-repo" class="index">
-				2
+				<div id="repo-cover">
+					<img src="./src/cover2.png" />
+				</div>
+				
+				<li class="repo-title">
+					我的仓库
+				</li>
+				<li class="repo-title-en">
+					My Repositories
+				</li>
+				<hr class="repo-title-hr" />
+				
+				<div id="repo-mine">
+					<div class="repo-mine">
+						<a href="https://github.com/Twisuki/Twisuki.github.io">Twisuki.github.io</a>
+						<div>Github个人首页, 自我介绍</div>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JavaScript</li>
+							<li>Markdown</li>
+						</ul>
+					</div>
+					<hr class="repo-mine-hr" />
+					<div class="repo-mine">
+						<a href="https://github.com/Twisuki/yisibite">yisibite</a>
+						<div>弦月档案 - 火弦月的各种投影下载处</div>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JSON</li>
+							<li>JavaScript</li>
+						</ul>
+					</div>
+					<hr class="repo-mine-hr" />
+					<div class="repo-mine">
+						<a href="https://github.com/Twisuki/PlumMusic">PlumMusic</a>
+						<div>Plum的音乐盒, 个人练习作品</div>
+						<ul>
+							<li>HTML</li>
+							<li>JavaScript</li>
+							<li>CSS</li>
+						</ul>
+					</div>
+				</div>
+				
+				<li class="repo-title">
+					我的复刻
+				</li>
+				<li class="repo-title-en">
+					My Forked Repositories
+				</li>
+				<hr class="repo-title-hr" />
+				<div id="repo-fork">
+					<div class="repo-fork">
+						<a class="repo-fork-title" href="https://github.com/Twisuki/MyYuhan2680">MyYuhan2680</a>
+						<div>涵酱的自我介绍, 帮忙修复了Github贪吃蛇</div>
+						<li>Frokrd from <a href="https://github.com/yuhan2680">yuhan2680</a><a href="https://github.com/yuhan2680/yuhan2680">/yuhan2680</a></li>
+					</div>
+				</div>
+				
+				<li class="repo-title">
+					我的请求
+				</li>
+				<li class="repo-title-en">
+					My PR Repositories
+				</li>
+				<hr class="repo-title-hr" />
+				<div id="repo-pr">
+					<div class="repo-pr">
+						<a class="repo-pr-title" href="https://github.com/Twisuki/yisibite">yisibite</a>
+						<div>进行了圆角美化</div>
+						<li>PR by <a href="https://github.com/GreatFood404">GreatFood404</a></li>
+					</div>
+					<hr class="repo-mine-hr" />
+					<div class="repo-pr">
+						<a class="repo-pr-title" href="https://github.com/Twisuki/yisibite">yisibite</a>
+						<div>编写了README.md文件</div>
+						<li>PR by <a href="https://github.com/yuhan2680">yuhan2680</a></li>
+					</div>
+				</div>
 			</div>
 			
 			<!-- index-2 常用资源 -->
 			<div id="main-src" class="index">
-				3
+				<div id="src-cover">
+					<img src="./src/cover3.png" />
+				</div>
+				
+				<li class="src-title">
+					我的开发工具
+				</li>
+				<li class="src-title-en">
+					My Development Kits
+				</li>
+				<hr class="src-title-hr" />
+				
+				<div id="src-kit">
+					<div class="src-kit-left">
+						<img class="src-kit-left-img" src="./src/HbuiliderX.png" />
+						<a class="src-kit-left-title" href="https://dcloud.io/hbuilderx.html">Hbuilder X</a>
+						<p>
+							咱最常用的文本编辑器, 速度快, 轻量级. 虽功能不及VSCode, 但综合起来还是相当不错的文本编辑器, 尤其是web和MarkDown
+						</p>
+						<ul>
+							<li>HTML</li>
+							<li>JavaScript</li>
+							<li>CSS</li>
+							<li>MarkDown</li>
+						</ul>
+					</div>
+					<hr class="src-kit-hr" />
+					<div class="src-kit-right">
+						<img class="src-kit-right-img" src="./src/VSCode.png" />
+						<a class="src-kit-right-title" href="https://code.visualstudio.com/">Visual Studio Code</a>
+						<p>
+							超强大的文本编辑器, 但是比HbuilderX吃配置, 咱主要用来编写C++
+						</p>
+						<ul>
+							<li>这个软件强大到不用多说了...</li>
+						</ul>
+					</div>
+					<hr class="src-kit-hr" />
+					<div class="src-kit-left">
+						<img class="src-kit-left-img" src="./src/PyCharm.png" />
+						<a class="src-kit-left-title" href="https://www.jetbrains.com/pycharm/">PyCharm</a>
+						<p>
+							JetBrains的超强Python IDE, 虽然咱不是很喜欢这门语言(((
+						</p>
+						<ul>
+							<li>Python</li>
+						</ul>
+					</div>
+					
+					<li class="src-title">
+						特别鸣谢
+					</li>
+					<li class="src-title-en">
+						Credits
+					</li>
+					<hr class="src-title-hr" />
+					
+					<div id="src-credit">
+						<li class="src-credit">
+							由Platane开发的Github贪吃蛇
+						</li>
+						<li class="src-credit-en">
+							A Github Snake developed by Platane.
+						</li>
+						<li class="src-credit-a">
+							<a href="https://github.com/Platane/snk">https://github.com/Platane/snk</a>
+						</li>
+						
+						<br />
+						
+						<li class="src-credit">
+							由denvercoder1开发的标题输入动画
+						</li>
+						<li class="src-credit-en">
+							Readme Typing SVG developed by denvercoder1.
+						</li>
+						<li class="src-credit-a">
+							<a href="https://github.com/denvercoder1/readme-typing-svg">https://github.com/denvercoder1/readme-typing-svg</a>
+						</li>
+						
+						<br />
+						
+						<li class="src-credit">
+							由...开发的访问总数
+						</li>
+						<li class="src-credit-en">
+							Total Visit developed by ....
+						</li>
+						<li class="src-credit-a">
+							<a href="https://github.com/.../...">https://github.com/.../...</a>
+						</li>
+					</div>
+					
+					<li class="src-title">
+						苏喵的百宝箱
+					</li>
+					<li class="src-title-en">
+						Twisuki's Magic Box
+					</li>
+					<hr class="src-title-hr" />
+					<div id="src-box">
+						<div id="src-box-1">
+							这里是各种各样的小工具, 可能有点乱, 希望能帮到你 ~
+						</div>
+						<div id="src-box-1-en">
+							Here are various small tools, which may be a bit messy. I hope they can help you ~
+						</div>
+					</div>
+				</div>
 			</div>
 			
 			<!-- index-3 联系方式 -->
