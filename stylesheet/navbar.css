@@ -13,6 +13,7 @@
 #avatar img {
 	width: 50px;
 	height: 50px;
+	border-radius: 50px;
 }
 #nav-btn {
 	width: 400px;

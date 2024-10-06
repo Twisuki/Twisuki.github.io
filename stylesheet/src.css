@@ -176,7 +176,7 @@
 	width: 1000px;
 	height: 40px;
 	color: #ffffff;
-	list-style-type: disc;
+	list-style-type: square;
 	text-align: left;
 	line-height: 40px;
 	font-size: 25px;
@@ -192,6 +192,76 @@
 	font-size: 20px;
 }
 .src-credit-a {
+	width: 1000px;
+	height: 30px;
+	color: #ffffff;
+	list-style-type: circle;
+	text-align: left;
+	line-height: 40px;
+	text-indent: 1em;
+	font-size: 20px;
+}
+
+/* src-box */
+#src-box {
+	width: 1000px;
+	float: left;
+}
+#src-box-1 {
+	width: 1000px;
+	color: #ffffff;
+	font-size: 20px;
+}
+#src-box-1-en {
+	width: 1000px;
+	color: #ffffff;
+	font-size: 20px;
+}
+#src-box a:link, #src-box a:visited {
+	color: #00aaff;
+	text-decoration: none;
+}
+#src-box a:hover {
+	text-decoration: #00aaff 3px underline;
+}
+#src-box-left {
+	width: 500px;
+	float: left;
+}
+#src-box-right {
+	width: 500px;
+	float: left;
+}
+.src-box {
+	width: 1000px;
+	height: 40px;
+	color: #00aaff;
+	list-style-type: square;
+	text-align: left;
+	line-height: 40px;
+	font-size: 35px;
+}
+.src-box-info {
+	width: 1000px;
+	height: 30px;
+	color: #ffffff;
+	list-style-type: circle;
+	text-align: left;
+	line-height: 40px;
+	text-indent: 1em;
+	font-size: 20px;
+}
+.src-box-en {
+	width: 1000px;
+	height: 30px;
+	color: #ffffff;
+	list-style-type: circle;
+	text-align: left;
+	line-height: 40px;
+	text-indent: 1em;
+	font-size: 20px;
+}
+.src-box-a {
 	width: 1000px;
 	height: 30px;
 	color: #ffffff;
