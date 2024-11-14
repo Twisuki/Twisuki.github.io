@@ -1,47 +1,16 @@
 
 <a id="top" />
 
-<div style="text-align: center; line-height: 15px; font-size: 17px; margin-left: 200px;">
-	<div style="width: 50px; height: 30px; float: left;">
-		<a href="https://github.com/Twisuki">
-			<img src="src/avatar.png" width="30px" height="30px" style="border-radius: 30px" />
-		</a>
-	</div>
-	<div style="width: 100px; height: 30px; float: left;">
-		<a href="#info">基本信息 <br /> Infomation</a>
-	</div>
-	<div style="width: 100px; height: 30px; float: left;">
-		<a href="#repo">个人仓库 <br /> Repositories</a>
-	</div>
-	<div style="width: 100px; height: 30px; float: left;">
-		<a href="#src">常用资源 <br /> Source</a>
-	</div>
-	<div style="width: 100px; height: 30px; float: left;">
-		<a href="#contect">联系方式 <br /> Contect Me</a>
-	</div>
-	<div style="width: 50px; height: 30px; float: left;">
-		<a href="https://github.com/Twisuki">
-			<img src="src/github.png" width="30px" height="30px" />
-		</a>
-	</div>
-	<div style="width: 50px; height: 30px; float: left;">
-		<a href="https://space.bilibili.com/317707977">
-			<img src="src/bilibili.png" width="30px" height="30px" />
-		</a>
-	</div>
-</div>
-
-<br />
-<br />
-
+- [基本信息 Infomation](#info)
+- [个人仓库 Repositories](#repo)
+- [常用资源 Source](#src)
+- [联系方式 Contect Me](#contect)
 
 <a id="info" />
 
 # 基本信息 Infomation
 
 ## 欢迎
-
-<img src="src/avatar.png" width="200px" height="200px" style="float: right; margin-left: auto; margin-right: 100px; border-radius: 200px;"/>
 
 <img src="src/titleType.svg" height="50px"/>
 
@@ -69,7 +38,7 @@
 
 ## 一点不为人知的小秘密
 
-<img src="src/mtf.png" width="100px" height="100px" style="border-radius: 100px; float: right" />
+<img src="src/mtf.png" width="100px" height="100px" align="right" />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其实咱一直都有这样一个问题, 从小也觉得自己好像不适合男生的身份, 直到2023年通过涵酱[(@yuhan2680)](http://github.com/yuhan2680), 开始了对LGBT的了解. 这样一个特殊的群体, 好像解答了咱自己的问题. 自己不是一个纯粹的男生, 也不想变成mtf (可能是不敢面对这样改变的后果吧) , 咱自己可能是mtx或者Agender, 但还是偏男性一点...
 
@@ -155,25 +124,17 @@
 
 ## 我的开发工具 My Development Kits
 
-<img src="src/HbuiliderX.png" width="80px" height="80px" style="float: right; margin-left: auto; margin-right: 50px" />
-
 - [HbuilderX](https://dcloud.io/hbuilderx.html)
 	- 咱最常用的文本编辑器, 速度快, 轻量级. 虽功能不及VSCode, 但综合起来还是相当不错的文本编辑器, 尤其是web和MarkDown
 	- HTML, JavaScript, CSS, Markdown	
-
-<img src="src/VSCode.png" width="80px" height="80px" style="float: right; margin-left: auto; margin-right: 50px" />
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 	- 超强大的文本编辑器, 但是比HbuilderX吃配置, 咱主要用来MarkDown
 	- 这个软件强大到不用多说了...
 
-<img src="src/PyCharm.png" width="80px" height="80px" style="float: right; margin-left: auto; margin-right: 50px" />
-
 - [PyCharm](https://www.jetbrains.com/pycharm/)
 	- JetBrains的超强Python IDE, 虽然咱不是很喜欢这门语言(((
 	- Python
-
-<img src="src/Clion.png" width="80px" height="80px" style="float: right; margin-left: auto; margin-right: 50px" />
 
 - [CLion](https://www.jetbrains.com/clion/)
 	- JetBrains的超强C/C++ IDE
@@ -248,13 +209,6 @@
 <a id="contect"/>
 
 # 联系方式 Contect Me
-
-<div style="width: 300px; float: right; margin-left: auto; margin-right: 100px">
-	<img src="./src/avatar.png" width="300px" height="300px" style="border-radius: 150px" />
-	<img src="./src/tsumiki1.png" width="120px" height="120px" style="margin-left: 5px; border-radius: 60px" />
-	<img src="./src/tsumiki2.png" width="120px" height="120px" style="margin-left: 40px; border-radius: 60px"/>
-	<img src="./src/Twisuki.png " width="300px" height="400px" />
-</div>
 
 ## 各个平台账号
 ## Account in other platforms
