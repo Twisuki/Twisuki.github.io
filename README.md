@@ -14,6 +14,8 @@
 
 <img src="src/titleType.svg" height="50px"/>
 
+<br />
+
 <img src="src/titleType-en.svg" height="40px"/>
 
 ### qwq, 咱是苏阳, 可以直接叫咱苏喵的
