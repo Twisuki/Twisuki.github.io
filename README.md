@@ -101,7 +101,7 @@
 	- Github Page首页, 自我介绍
 	- HtML, CSS, JavaScript, MarkDown
 
-- [Twisuki](http://github.com/Twisuki)
+- [Twisuki](http://github.com/Twisuki/Twisuki)
 	- Github个人首页README.md, 自我介绍
 	- MarkDown
 
