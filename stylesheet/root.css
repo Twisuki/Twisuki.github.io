@@ -1,6 +1,5 @@
 :root {
 	--body-background-color: #a2c4f1;
-	--navbar-shadow-color: #2b2b3b40;
 
 	--dark-font-color: #2b2b3b;
 	--white-font-color: #eeeeee;
@@ -8,4 +7,10 @@
 	--blue-font-color: #0066aa;
 	--superWhite-font-color: #ffffff;
 
+	--navbar-shadow-color: #2b2b3b40;
+	--navbar-hover-background-color: #ffffffb0;
+}
+
+body {
+	background-color: var(--body-background-color);
 }

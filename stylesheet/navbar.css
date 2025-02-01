@@ -10,7 +10,13 @@
 	right: 0;
 	top: 0;
 	position: fixed;
+	z-index: 999;
 	box-shadow: 0 0 5px 2px var(--navbar-shadow-color);
+}
+
+#nav:hover {
+	transition: background-color 0.3s ease;
+	background-color: var(--navbar-hover-background-color);
 }
 
 #nav > img {
@@ -43,6 +49,10 @@
 
 #nav-list > a:hover {
 	text-decoration: 2px underline var(--dark-font-color);
+}
+
+#nav-list > a:hover #nav-list {
+	background-color: #ffffff;
 }
 
 #nav-logo {
