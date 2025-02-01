@@ -71,7 +71,11 @@
 	padding-bottom: 1.5em;
 }
 
-#nav-logo > img {
+#nav-logo > a {
+	text-decoration: none;
+}
+
+#nav-logo > a > img {
 	width: 2em;
 	height: 2em;
 	margin-left: 1em;
