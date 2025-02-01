@@ -16,6 +16,7 @@
 	height: 10em;
 	float: right;
 	margin-right: 20vw;
+	margin-top: 1em;
 }
 
 #title-h {
@@ -208,4 +209,19 @@
 #contact a:hover {
 	color: var(--lightBlue-font-color);
 	text-decoration: 2px underline var(--lightBlue-font-color);
+}
+
+/* Visitors */
+#visitors {
+	color: var(--dark-font-color);
+}
+
+#visitors > h1 {
+	margin-left: 1em;
+}
+
+#visitors > hr {
+	width: 96%;
+	margin-left: 2%;
+	margin-bottom: 1em;
 }
