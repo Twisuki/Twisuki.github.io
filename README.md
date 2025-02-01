@@ -1,19 +1,19 @@
-<img src="src/index/round.png" width="250px" height="250px" align="right" />
+<img src="src/md/round.png" width="250px" height="250px" align="right" />
 
 <br />
 
 <picture>
-	<source media="(prefers-color-scheme: dark)" srcset="src/index/titleType.svg" />
-	<source media="(prefers-color-scheme: light)" srcset="src/index/titleType-light.svg" />
-	<img height="50px" src="src/index/titleType.svg" />
+	<source media="(prefers-color-scheme: dark)" srcset="src/md/titleType.svg" />
+	<source media="(prefers-color-scheme: light)" srcset="src/md/titleType-light.svg" />
+	<img height="50px" src="src/md/titleType.svg" />
 </picture>
 
 <br />
 
 <picture>
-	<source media="(prefers-color-scheme: dark)" srcset="src/index/titleType-en.svg" />
-	<source media="(prefers-color-scheme: light)" srcset="src/index/titleType-en-light.svg" />
-	<img height="40px" src="src/index/titleType-en.svg" />
+	<source media="(prefers-color-scheme: dark)" srcset="src/md/titleType-en.svg" />
+	<source media="(prefers-color-scheme: light)" srcset="src/md/titleType-en-light.svg" />
+	<img height="40px" src="src/md/titleType-en.svg" />
 </picture>
 
 ## 个人简介 Profile
@@ -120,5 +120,5 @@
 
 <picture style="float: left; margin-top: 10px; margin-left: 50px">
 	<source srcset="https://profile-counter.glitch.me/twisuki/count.svg" />
-	<img src="src/index/count.svg" />
+	<img src="src/md/count.svg" />
 </picture>
