@@ -130,3 +130,46 @@
 	width: 96%;
 	margin-left: 2%;
 }
+
+/* Repo */
+#repo {
+	color: var(--dark-font-color);
+}
+
+#repo > h1 {
+	margin-left: 1em;
+}
+
+#repo > hr {
+	width: 96%;
+	margin-left: 2%;
+	margin-bottom: 1em;
+}
+
+#repo > a {
+	text-decoration: none;
+	margin-left: 2%;
+}
+
+#repo > a > img {
+	width: 30%;
+}
+
+/* Links */
+#links {
+	color: var(--dark-font-color);
+}
+
+#links > h1 {
+	margin-left: 1em;
+}
+
+#links > hr {
+	width: 96%;
+	margin-left: 2%;
+	margin-bottom: 1em;
+}
+
+#links > img {
+	margin-left: 2em;
+}
