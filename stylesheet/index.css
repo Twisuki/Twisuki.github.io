@@ -173,3 +173,39 @@
 #links > img {
 	margin-left: 2em;
 }
+
+/* Contact */
+#contact {
+	color: var(--dark-font-color);
+}
+
+#contact > h1 {
+	margin-left: 1em;
+}
+
+#contact > hr {
+	width: 96%;
+	margin-left: 2%;
+	margin-bottom: 1em;
+}
+
+#contact > li {
+	font-size: 1.2em;
+	text-indent: 2em;
+}
+
+#contact > li > ul {
+	margin-left: 3.5em;
+	text-indent: 0;
+	list-style: circle;
+}
+
+#contact a:link, #contact a:visited {
+	color: var(--blue-font-color);
+	text-decoration: none;
+}
+
+#contact a:hover {
+	color: var(--lightBlue-font-color);
+	text-decoration: 2px underline var(--lightBlue-font-color);
+}
