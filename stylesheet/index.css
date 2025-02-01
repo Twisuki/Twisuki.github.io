@@ -1,0 +1,65 @@
+#container {
+	padding-top: 5em;
+	width: 90vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+
+/* Title */
+
+#title {
+	height: 11em;
+}
+
+#title > #title-img {
+	width: 10em;
+	height: 10em;
+	float: right;
+	margin-right: 20vw;
+}
+
+#title-h {
+	height: 4em;
+	margin-top: 2em;
+	margin-left: 2em;
+}
+
+#title-h-en {
+	height: 3em;
+	margin-left: 2.2em;
+}
+
+/* Profile */
+#profile {
+	color: var(--dark-font-color);
+}
+
+#profile > h1 {
+	margin-left: 1em;
+}
+
+#profile > hr {
+	width: 96%;
+	margin-left: 2%;
+}
+
+#profile > a:first-of-type {
+	margin-left: 2em;
+}
+
+#profile > a > img, #profile > img {
+	margin-left: 1em;
+}
+
+#profile > a {
+	text-decoration: none;
+}
+
+#profile > li {
+	font-size: 1.2em;
+	text-indent: 2em;
+}
+
+#profile > li > span {
+	margin-left: 3.5em;
+}
