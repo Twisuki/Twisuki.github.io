@@ -47,6 +47,10 @@
 	text-decoration: none;
 }
 
+#nav-list > a.onshown {
+	font-weight: bold;
+}
+
 #nav-list > a:hover {
 	text-decoration: 2px underline var(--dark-font-color);
 }
