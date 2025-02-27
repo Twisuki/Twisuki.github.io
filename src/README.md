@@ -11,5 +11,4 @@ heroFullScreen: true
 # using public anime scenery WEBP API
 bgImage: assets/covers/shizuku.png
 
-footer: Twisuki, 苏阳
 ---
