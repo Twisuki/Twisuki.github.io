@@ -1,10 +1,10 @@
 ---
 title: 笔记 notes
 index: false
+article: false
+timeline: false
 icon: pen-to-square
-category:
-  - 测试文档
+category: ""
 ---
 
 <Catalog />
-

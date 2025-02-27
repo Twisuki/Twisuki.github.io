@@ -1,9 +1,10 @@
 ---
 title: 工具 kits
 index: false
+article: false
+timeline: false
 icon: gears
-category:
-  - 测试文档
+category: ""
 ---
 
 <Catalog />

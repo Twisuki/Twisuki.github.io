@@ -1,6 +1,9 @@
 ---
+home: true
+portfolio: true
 icon: circle-info
-# cover: /assets/images/cover3.jpg
+cover: /assets/covers/StardropTear.jpg
+sidebar: false
 ---
 
 # 介绍 intro
