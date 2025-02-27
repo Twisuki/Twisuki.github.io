@@ -1,12 +1,16 @@
 ---
 home: true
 layout: BlogHome
-icon: house
-title: 博客主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: 你博客的名称
+icon: home
+title: 主页 index
+heroImage: avatar.png
+heroText: 大家好这里是Twisuki
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+
+
+# using public anime scenery WEBP API
+bgImage: assets/covers/shizuku.png
+
 projects:
   - icon: folder-open
     name: 项目名称
