@@ -1,10 +1,9 @@
 ---
-title: 笔记 notes
+title: 工具 kits
 index: false
-icon: pen-to-square
+icon: gears
 category:
   - 测试文档
 ---
 
 <Catalog />
-

@@ -14,7 +14,7 @@ export default sidebar({
     {
       text: "工具 kites",
       icon: "gears",
-      prefix: "posts/",
+      prefix: "kits/",
       children: "structure",
     },
     {
