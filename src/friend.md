@@ -1,19 +1,15 @@
 ---
-home: true
-layout: BlogHome
-icon: house
-title: 友链 friend
-heroImage: avatar.png
-heroText: 大家好这里是Twisuki
+layout: FriendsHome
+icon: link
+index: false
+title: 友链
+heroText: 氯喵です。
 heroFullScreen: true
-bgImage: assets/covers/shizuku.png
-
-projects:
-  - icon: folder-open
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
-
+article: false
 ---
 
-<!-- <Catalog /> -->
+> [!tip]
+> ::: center
+> 愿意跟窝贴贴的萌萌壬们……
+> [Pull Request 大欢迎（？）](https://github.com/NyaCl/nyacl.github.io/edit/main/src/friends.ts)
+> :::
