@@ -4,5 +4,6 @@ export default navbar([
   "/",
   "intro",
   "/notes/",
-  "/kits/"
+  "/kits/",
+  "friend"
 ]);

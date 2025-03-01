@@ -38,6 +38,7 @@ export default hopeTheme({
       Gmail: "mailto:twisuki@gmail.com",
       Steam: "https://steamcommunity.com/profiles/76561199387291268/",
       Twitter: "https://x.com/suyang_233",
+      "163Music": "https://y.music.163.com/m/user?id=6428013647",
     },
   },
 
