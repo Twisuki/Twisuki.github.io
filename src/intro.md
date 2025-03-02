@@ -2,7 +2,7 @@
 containerClass: home
 home: true
 portfolio: true
-icon: circle-info
+icon: heart
 sidebar: false
 avatar: avatar.png
 welcome: 你好, 这里是

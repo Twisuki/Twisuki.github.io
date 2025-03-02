@@ -9,34 +9,34 @@ heroFullScreen: true
 bgImage: assets/covers/shizuku.png
 
 projects:
-  - icon: folder-open
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+  - icon: heart
+    name: 认识一下
+    desc: 这里是Twisuki~
+    link: intro.md
 
-  - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+  - icon: pen-to-square
+    name: 苏喵笔记
+    desc: 随笔, 感想, 生活中的一点..小事
+    link: /notes/
 
-  - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+  - icon: gears
+    name: 苏の百宝箱
+    desc: 各种各样奇奇怪怪的小工具(?)
+    link: /kits/
 
-  - icon: newspaper
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
+  - icon: bxl:github
+    name: Github Profile
+    desc: Github主页, 求fo喵~
+    link: https://github.com/Twisuki
 
   - icon: user-group
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+    name: 苏喵的好朋友
+    desc: 一起贴贴的小猫娘们~
+    link: friend.md
 
   - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
+    name: Github Pages
+    desc: 本页仓库, 基于theme-hope
+    link: https://github.com/Twisuki/Twisuki.github.io
 
 ---
