@@ -110,5 +110,43 @@ I am also a editor at [GTMC](https://github.com/tanhHeng/GraduateTextsInTechnica
 </div>
 
 
-<img id="dark-img" src="https://raw.githubusercontent.com/Twisuki/Twisuki/output/github-contribution-grid-snake-dark.svg" />
 <img id="light-img" src="https://raw.githubusercontent.com/Twisuki/Twisuki/output/github-contribution-grid-snake.svg" />
+
+### 我的仓库 Repository
+
+<div class="mid card">
+  <VPCard
+    title="Twisuki"
+    desc="Twisuki Profile"
+    logo="avatar.png"
+    link="https://github.com/Twisuki/Twisuki"
+  />
+
+  <VPCard
+    title="Twisuki.github.io"
+    desc="自我介绍"
+    logo="https://github.com/Twisuki.png"
+    link="https://github.com/Twisuki/Twisuki.github.io"
+  />
+
+  <VPCard
+    title="nonebot-plugin-marshoai"
+    desc="NoneBot2 猫娘聊天插件"
+    logo="https://github.com/Asankilp.png"
+    link="https://github.com/Twisuki/nonebot-plugin-marshoai"
+  />
+
+  <VPCard
+    title="GraduateTextsInTechnicalMC"
+    desc="TechMC入门&进阶文档"
+    logo="https://github.com/tanhHeng.png"
+    link="https://github.com/Twisuki/GraduateTextsInTechnicalMC"
+  />
+
+  <VPCard
+    title="Dress"
+    desc="好耶 是女装 | 备份·接受PR"
+    logo="https://github.com/Cute-Dress.png"
+    link="https://github.com/Twisuki/Dress"
+  />
+</div>
