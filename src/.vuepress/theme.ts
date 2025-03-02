@@ -53,6 +53,8 @@ export default hopeTheme(
     },
   },
 
+  darkmode: "toggle",
+
   // 多语言配置
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
@@ -145,7 +147,7 @@ export default hopeTheme(
     // },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge", "VPCard", "Share"],
     },
 
     icon: {

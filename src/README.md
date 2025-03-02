@@ -35,8 +35,8 @@ projects:
     link: friend.md
 
   - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: Github Pages
-    desc: 本页仓库, 基于theme-hope
-    link: https://github.com/Twisuki/Twisuki.github.io
+    name: 技术支持
+    desc: vuepress-theme-hope官方主页
+    link: https://theme-hope.vuejs.press/zh/
 
 ---
