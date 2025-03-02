@@ -3,7 +3,8 @@ import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
-export default hopeTheme({
+export default hopeTheme(
+{
   hostname: "https://twisuki.github.io",
 
   author: {
@@ -208,4 +209,8 @@ export default hopeTheme({
     //   },
     // },
   },
-});
+},
+{
+  custom: true,
+},
+);
