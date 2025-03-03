@@ -9,7 +9,32 @@ export default sidebar({
       icon: "book",
       prefix: "notes/",
       link: "notes/",
-      children: "structure",
+      children: [
+        {
+          text: "开发",
+          prefix: "dev/",
+          collapsible: true,
+          children: "structure"
+        },
+        {
+          text: "学习",
+          prefix: "study/",
+          collapsible: true,
+          children: "structure"
+        },
+        {
+          text: "生活",
+          prefix: "life/",
+          collapsible: true,
+          children: "structure"
+        },
+        {
+          text: "其他",
+          prefix: "other/",
+          collapsible: true,
+          children: "structure"
+        }
+      ],
     },
     {
       text: "工具 kites",
