@@ -17,6 +17,9 @@ importers:
       '@vuepress/plugin-pwa':
         specifier: 2.0.0-rc.80
         version: 2.0.0-rc.80(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.13.8)(sass-embedded@1.85.1)(stylus@0.54.8)(terser@5.39.0))(vue@3.5.13))
+      katex:
+        specifier: ^0.16.21
+        version: 0.16.21
       vue:
         specifier: ^3.5.13
         version: 3.5.13
@@ -5523,8 +5526,7 @@ snapshots:
 
   commander@2.20.3: {}
 
-  commander@8.3.0:
-    optional: true
+  commander@8.3.0: {}
 
   common-tags@1.8.2: {}
 
@@ -6220,7 +6222,6 @@ snapshots:
   katex@0.16.21:
     dependencies:
       commander: 8.3.0
-    optional: true
 
   kind-of@6.0.3: {}
 
