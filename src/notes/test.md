@@ -1,19 +1,157 @@
 ---
-title: 测试文档
+title: Vuepress-theme-hope部署
 icon: fa6-brands:markdown
 order: 2
 category:
-  - 分类
+  - 开发
+  - 前端技术
 tag:
-  - 标签
-  - 可以
-  - 多个
+  - vuepress
+  - hope
 
 ---
 
 
-## 我是标题
+## Vuepress-theme-hope部署
 
-我是段落
+经过了至少一周的时间, 终于成功部署了这个属于自己的网站, 这里打算把使用`vuepress-theme-hope`编写到部署的整个过程记录分享一下
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+_注意: 本喵电脑为Windows, 因此不清楚其他操作系统如何操作_
+
+---
+
+### 1. 下载, 准备及安装
+
+`vuepress-theme-hope`的官方网站为[点击跳转](https://theme-hope.vuejs.press/zh/), 在此页面, 我们点击`快速上手/创建项目`即可查询对应命令.
+
+#### 1.1 包管理器
+
+这里推荐只用`pnpm`作为包管理器, 可以使用`Node.js安装程序`安装包管理器`npm`和`Node.js`, 之后使用`npm`来安装`pnpm`.
+
+此外, 为了方便的管理node版本, 推荐使用`nvm(Node.js version manager)`进行安装和管理. `nvm`安装非常简单, 直接在Github Releases下载.exe文件即可.
+
+`nvm`: [https://github.com/nvm-sh/nvm/releases](https://github.com/nvm-sh/nvm/releases)
+
+```bash
+nvm use 22
+```
+
+则`nvm`会自动下载并使用`22.*.*`版本, 此外, 可以使用`nvm`查看全部指令, 使用`nvm list`查看已安装版本.
+
+之后, 使用如下指令安装`pnpm`.
+
+```bash
+npm install -g pnpm@latest-10
+```
+
+安装后, 准备一个文件夹并`cd`到此处, 使用如下指令可在此处创建一个新文件夹并在这个新文件夹中创建项目模板.
+
+```bash
+pnpm create vuepress-theme-hope <new floder>
+```
+
+#### 1.2 初始化
+
+输入指令后, 通过上下键和回车键依次选择/设置`语言: 简体中文`, `包管理器: pnpm`, `打包器: vite`, `应用名称`, `应用描述`, `版本号`, `协议`, `项目类型: blog`, `多语言: n`, `是否初始化 Git 仓库: y`, ` 是否需要一个自动部署文档到 GitHub Pages 的工作流: y`.
+
+如果出现如下字样, 则证明初始化成功, 按y启动`Demo服务器`.
+
+```bash
+安装依赖...
+这可能需要数分钟，请耐心等待.
+我们无法正确输出子进程的进度条，所以进程可能会看似未响应
+Packages: +379
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 441, reused 379, downloaded 0, added 379, done
+
+devDependencies:
++ @vuepress/bundler-vite 2.0.0-rc.20
++ sass-embedded 1.85.1
++ vue 3.5.13
++ vuepress 2.0.0-rc.20
++ vuepress-theme-hope 2.0.0-rc.73
+
+╭ Warning ───────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                            │
+│   Ignored build scripts: esbuild.                                                          │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed to run scripts.   │
+│                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────╯
+
+Done in 12.5s using pnpm v10.4.1
+模板已成功生成!
+? 是否想要现在启动 Demo 查看? (Y/n)
+```
+
+随后会出现若干网址, 直接浏览器访问即可, 在终端按`Ctrl - C`可关闭服务器.
+
+服务器关闭后, 可输入如下命令重新部署服务器:
+
+```bash
+pnpm vuepress-vite dev src
+```
+
+_若初始化时选用的其他配置, 可打开`package.json`文件, 有如下字样:_
+
+```json
+"scripts": {
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
+    "docs:update-package": "pnpm dlx vp-update"
+  },
+```
+
+该部分列出来服务器使用命令, 请参考[vuepress-theme-hope官方文档/快速上手/项目命令](https://theme-hope.vuejs.press/zh/get-started/command.html#常用命令)
+
+#### 1.3 禁用全局配置
+
+关闭后, 如果直接删除文件夹, 或将文件悉数移动到新文件夹, 可能就无法再次部署/初始化, 因为pnpm配置文件是全局的.
+
+在文件夹中新建名为`.npmrc`的文件, 输入如下内容配置镜像源为淘宝的镜像源.
+
+```ini
+registry=https://registry.npmmirror.com/
+```
+
+之后删除`node_modules`文件夹, 输入如下命令重新安装.
+
+```bash
+pnpm install
+```
+
+此时应该可以成功初始化.
+
+#### 1.5 自定义初始化
+
+若已有项目文件夹, 可先安装`1.2`的方法进行初始化, 然后, 在所需的文件夹中添加`.npmrc`文件并按`1.3`配置.
+
+若已有`.git`文件夹, 建议创建一个新分支, 然后删除所有文件(`.git`文件夹或`.idea`, `.vscode`文件夹除外), 如下:
+
+```bash
+git branch -a
+gir branch <new branch>
+git branch checkout <new branch>
+```
+
+手动删除全部文件(`.git`文件夹或`.idea`, `.vscode`文件夹除外), 并添加`.npmrc`文件.
+
+```bash
+git add .
+git commit -m "<注释>"
+```
+
+然后在其他位置初始化一个项目, 复制项目文件夹下除`node_module文件夹`和`.git文件夹`外的所有文件(包括`.github文件夹 `, `pnpm-lock.yaml`, `.gitignore`, `src文件夹`, `package.json`, `tsconfig.json`), 之后`cd`到对应文件夹, 输入如下命令进行安装:
+
+```bash
+pnpm install
+```
+
+之后按照`1.2`的方法部署服务器.
+
+若服务器可以成功运行, 关闭服务器, 将所以文件添加到`Git`中.
+
+```bash
+git add .
+git commit -m "<注释>"
+```
