@@ -70,13 +70,6 @@ I am also a editor at [GTMC](https://github.com/tanhHeng/GraduateTextsInTechnica
 
 <div class="mid">
   <VPCard
-    title="Twisuki"
-    desc="Twisuki Profile"
-    logo="avatar.png"
-    link="https://github.com/Twisuki/Twisuki"
-  />
-
-  <VPCard
     title="Twisuki.github.io"
     desc="自我介绍"
     logo="https://github.com/Twisuki.png"
@@ -88,6 +81,13 @@ I am also a editor at [GTMC](https://github.com/tanhHeng/GraduateTextsInTechnica
     desc="NoneBot2 猫娘聊天插件"
     logo="https://github.com/Asankilp.png"
     link="https://github.com/Twisuki/nonebot-plugin-marshoai"
+  />
+
+  <VPCard
+    title="yisibite"
+    desc="弦月档案 | 火弦月的投影寄存处"
+    logo="assets/friends/yisibite.png"
+    link="https://github.com/Twisuki/yisibite"
   />
 
   <VPCard
