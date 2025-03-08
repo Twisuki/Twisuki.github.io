@@ -12,6 +12,12 @@ const friends: ThemeBlogHomeProjectOptions[] = [
     icon: "https://github.com/Snowykami.png",
     desc: "Redrock 后端人员, 主要维护轻雪的相关项, 时不时在 MC 里整活. ",
     link: "https://sfkm.me/"
+  },
+  {
+    name: "Asankilp 阿桑",
+    icon: "https://github.com/Asankilp.png",
+    desc: "MarshoAI的开发者",
+    link: "https://github.com/Asankilp"
   }
 ]
 export default friends
