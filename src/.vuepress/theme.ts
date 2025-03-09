@@ -53,6 +53,14 @@ export default hopeTheme(
     },
   },
 
+  pageInfo: [
+    "Author",
+    "Date",
+    "Word",
+    "ReadingTime",
+    "Tag",
+  ],
+
   darkmode: "toggle",
 
   // 多语言配置
