@@ -13,6 +13,7 @@
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.20",
     "@vuepress/helper": "2.0.0-rc.80",
+    "@vuepress/plugin-docsearch": "2.0.0-rc.82",
     "@vuepress/plugin-pwa": "2.0.0-rc.80",
     "katex": "^0.16.21",
     "vue": "^3.5.13",
