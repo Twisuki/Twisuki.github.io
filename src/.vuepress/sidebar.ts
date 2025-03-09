@@ -13,6 +13,7 @@ export default sidebar({
         {
           text: "开发",
           prefix: "dev/",
+          icon: "gear",
           collapsible: true,
           children: "structure"
         },
