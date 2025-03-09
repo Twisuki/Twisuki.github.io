@@ -42,6 +42,7 @@ export default sidebar({
       icon: "gears",
       prefix: "kits/",
       children: "structure",
-    }
+    },
+    "friend"
   ],
 });
