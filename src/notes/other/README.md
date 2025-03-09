@@ -1,9 +1,9 @@
 ---
-title: 开发
+title: 其他
 index: false
 article: false
 timeline: false
-icon: gear
+icon: pen-to-square
 category: ""
 ---
 
