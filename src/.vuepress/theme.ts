@@ -163,7 +163,9 @@ export default hopeTheme(
     },
 
     docsearch: {
-
+      appId: "GXV92NZXHL",
+      apiKey: "38c1152c28dfcb04d64d5f3cfbfc1808",
+      indexName: "twis",
     },
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
