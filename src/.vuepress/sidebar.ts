@@ -6,7 +6,6 @@ export default sidebar({
       text: "笔记 notes",
       icon: "book",
       prefix: "notes/",
-      link: "notes/",
       children: [
         {
           text: "开发",
