@@ -2,8 +2,6 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
   "/": [
-    "",
-    "intro",
     {
       text: "笔记 notes",
       icon: "book",
@@ -47,6 +45,5 @@ export default sidebar({
       collapsible: true,
       children: "structure",
     },
-    "friend"
   ],
 });
