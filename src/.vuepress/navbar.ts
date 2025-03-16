@@ -15,6 +15,11 @@ export default navbar([
         icon: "link",
         link: "https://twis.uk/yisibite",
       },
+      {
+        text: "线代笔记",
+        icon: "link",
+        link: "https://twis.uk/Notes-on-Linear-Algebra"
+      }
     ]
   }
 ]);
