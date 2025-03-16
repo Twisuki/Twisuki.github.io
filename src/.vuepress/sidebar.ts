@@ -45,5 +45,22 @@ export default sidebar({
       collapsible: true,
       children: "structure",
     },
+    {
+      text: "项目 projects",
+      icon: "star",
+      collapsible: true,
+      children: [
+        {
+          text: "弦月档案",
+          icon: "link",
+          link: "https://twis.uk/yisibite",
+        },
+        {
+          text: "线代笔记",
+          icon: "link",
+          link: "https://twis.uk/Notes-on-Linear-Algebra"
+        }
+      ],
+    }
   ],
 });
