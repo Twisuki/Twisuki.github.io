@@ -6,7 +6,7 @@ title: 主页 index
 heroImage: avatar.png
 heroText: 大家好这里是Twisuki
 heroFullScreen: true
-bgImage: assets/covers/shizuku.png
+bgImage: covers/shizuku.png
 
 projects:
   - icon: heart

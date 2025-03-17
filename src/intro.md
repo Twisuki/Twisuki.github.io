@@ -86,7 +86,7 @@ I am also a editor at [GTMC](https://github.com/tanhHeng/GraduateTextsInTechnica
   <VPCard
     title="yisibite"
     desc="弦月档案 | 火弦月的投影寄存处"
-    logo="assets/friends/yisibite.png"
+    logo="friends/yisibite.png"
     link="https://github.com/Twisuki/yisibite"
   />
 
