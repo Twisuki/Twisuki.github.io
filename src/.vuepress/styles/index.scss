@@ -22,3 +22,13 @@
     float: right;
 }
 
+// 手机模式介绍页头像
+@media screen and (max-width: 768px) {
+    .vp-portfolio-avatar{
+        padding-top: 5vw;
+        height: 55vw;
+    }
+    .vp-portfolio-avatar > img {
+        width: 50vw;
+    }
+}
