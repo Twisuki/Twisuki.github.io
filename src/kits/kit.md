@@ -1,6 +1,6 @@
 ---
 title: 工具文档
-icon: fa6-brands:markdown
+icon: lucide:play
 order: 2
 category:
   - 分类
