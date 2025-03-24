@@ -2,7 +2,7 @@
   "name": "twisuki-pages",
   "description": "Twisuki的个人网页",
   "version": "0.0.0",
-  "license": "Apache License 2.0",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "docs:build": "vuepress-vite build src",
