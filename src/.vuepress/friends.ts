@@ -3,7 +3,7 @@ import { ThemeBlogHomeProjectOptions } from 'vuepress-theme-hope'
 const friends: ThemeBlogHomeProjectOptions[] = [
   {
     name: "NyaCl 氯喵",
-    icon: "https://github.com/NyaCl.png",
+    icon: "https://github.com/AgxCOy.png",
     desc: "氯离子工作室室长, 非常可爱的大姐姐",
     link: "https://nyacl.shimakaze.org/",
   },
