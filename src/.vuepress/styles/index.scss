@@ -24,10 +24,9 @@
 
 // 手机模式介绍页头像
 @media screen and (max-width: 768px) {
-    // .vp-portfolio-container {
-    //     padding-top: 0;
-    //     padding-bottom: 0;
-    // }
+    .vp-portfolio {
+        height: calc(100vh - 20vw);
+    }
 
     .vp-portfolio-avatar{
         padding-top: 5vw;
@@ -41,4 +40,8 @@
         top: 70vw;
         height: 60vw;
     }
+
+    //.theme-hope-content.vp-portfolio-content {
+    //    margin-top: 10vw;
+    //}
 }
