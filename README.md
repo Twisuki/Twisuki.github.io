@@ -42,5 +42,5 @@ And for me ...
 特别鸣谢 / Credit:
 
 - [Mr.Hope](https://github.com/Mister-Hope)
-- [NyaCl](https://github.com/AgxCOy)
+- [AgxCOy](https://github.com/AgxCOy)
 - [Snowykami](https://github.com/snowykami/)
