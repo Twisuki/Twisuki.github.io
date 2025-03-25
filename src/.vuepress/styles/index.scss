@@ -24,11 +24,21 @@
 
 // 手机模式介绍页头像
 @media screen and (max-width: 768px) {
+    // .vp-portfolio-container {
+    //     padding-top: 0;
+    //     padding-bottom: 0;
+    // }
+
     .vp-portfolio-avatar{
         padding-top: 5vw;
         height: 55vw;
     }
     .vp-portfolio-avatar > img {
         width: 50vw;
+    }
+
+    .vp-portfolio-info {
+        top: 70vw;
+        height: 60vw;
     }
 }
