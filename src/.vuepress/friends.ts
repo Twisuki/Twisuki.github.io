@@ -4,7 +4,7 @@ const friends: ThemeBlogHomeProjectOptions[] = [
   {
     name: "SilverAg.L",
     icon: "https://nyacl.shimakaze.org/assets/images/avatar.webp",
-    desc: "喜欢涩涩的，（并不）可爱的小魅魔。「她（氯喵）总说自己很没用，却从不吝于温柔以待。」",
+    desc: "喜欢涩涩的，（并不）可爱的小魅魔。十分珍重与氯喵的纠缠之缘。",
     link: "https://nyacl.shimakaze.org/",
   },
   {
