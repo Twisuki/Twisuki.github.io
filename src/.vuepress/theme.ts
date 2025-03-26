@@ -24,6 +24,8 @@ export default hopeTheme(
 		// 侧边栏
 		sidebar,
 
+		sidebarSorter: ["readme", "order", "date", "filename"],
+
 		// 页脚
 		footer: "Twisuki, 苏阳 ♡",
 		displayFooter: true,
