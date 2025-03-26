@@ -41,13 +41,13 @@ export default sidebar({
 			text: "工具 kites",
 			icon: "gears",
 			prefix: "kits/",
-			collapsible: true,
 			children: "structure",
 		},
 		{
 			text: "项目 projects",
 			icon: "star",
 			collapsible: true,
+			expanded: true,
 			children: [
 				{
 					text: "弦月档案",
