@@ -63,6 +63,8 @@ export default hopeTheme(
 			"Tag",
 		],
 
+		toc: false,
+
 		darkmode: "toggle",
 
 		// 多语言配置
